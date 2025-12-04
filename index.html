@@ -65,14 +65,15 @@
         }
 
         .hero-logo {
-            max-width: 220px;
-        }
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
 
-        .hero-logo img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
+.hero-logo img {
+    width: 320px;    /* TAMANHO GRANDE — pode aumentar para 360, 400, etc */
+    max-width: 100%;
+}
 
         .hero-contact {
             text-align: right;
@@ -299,29 +300,26 @@
 </head>
 <body>
 
-    <!-- HERO -->
-    <section class="hero">
-        <div class="hero-top">
-            <div class="hero-logo">
-                <img src="MiEnglish-Panfleto-De-Aulas-FINAL-_1_-removebg-preview.png"
-                     alt="MI English - Imersão com propósito" />
-            </div>
-            <div class="hero-contact">
-                <div>Aulas particulares 100% online</div>
-                <div>mimicanobre2005@gmail.com</div>
-                <div>+1 (437) 665-4807</div>
-            </div>
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-top">
+        <div class="hero-logo">
+            <img src="MiEnglish-Panfleto-De-Aulas-FINAL-_1_-removebg-preview.png"
+                 alt="MI English - Imersão com propósito" />
         </div>
+    </div>
 
-        <div class="hero-title">UMA IMERSÃO COM PROPÓSITO NO SEU INGLÊS.</div>
-        <div class="hero-subtitle">
-            Aulas particulares 100% online, com foco em inglês acadêmico e profissional.
-        </div>
-        <a href="https://wa.me/14376654807?text=Oi%20Mi!%20Quero%20saber%20mais%20sobre%20as%20aulas%20de%20ingl%C3%AAs!" class="hero-button">Agende sua aula experimental gratuita</a>
-        <p class="hero-small">
-            Para estudantes e profissionais que querem usar o inglês para estudar, trabalhar e viver novas experiências.
-        </p>
-    </section>
+    <div class="hero-title">UMA IMERSÃO COM PROPÓSITO NO SEU INGLÊS.</div>
+    <div class="hero-subtitle">
+        Aulas particulares 100% online, com foco em inglês acadêmico e profissional.
+    </div>
+    <a href="https://wa.me/14376654807?text=Oi%20Mi!%20Quero%20saber%20mais%20sobre%20as%20aulas%20de%20ingl%C3%AAs!" class="hero-button">
+        Agende sua aula experimental gratuita
+    </a>
+    <p class="hero-small">
+        Para estudantes e profissionais que querem usar o inglês para estudar, trabalhar e viver novas experiências.
+    </p>
+</section>
 
     <!-- SOBRE -->
     <section class="section">

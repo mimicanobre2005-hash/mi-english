@@ -44,9 +44,14 @@
             font-family: "League Spartan", system-ui, sans-serif;
         }
 
+        h3 {
+            margin-top: 20px;
+            margin-bottom: 12px;
+        }
+
         /* HERO */
         .hero {
-            background: linear-gradient(135deg, var(--azul-profundo), var(--laranja-coral));
+            background: linear-gradient(135deg, #2817ac, #0cc0df);
             color: var(--branco);
             padding: 32px 28px 40px;
             border-radius: 24px;
@@ -57,23 +62,23 @@
         }
 
         .hero-top {
-    display: flex;
-    justify-content: center; /* CENTRALIZA */
-    align-items: center;
-    width: 100%;
-    margin-bottom: 24px;
-}
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 24px;
+        }
 
-.hero-logo {
-    display: flex;
-    justify-content: center; /* CENTRALIZA */
-    width: 100%;
-}
+        .hero-logo {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
 
-.hero-logo img {
-    width: 360px; /* Aumente se quiser ainda maior (400, 450…) */
-    max-width: 100%;
-}
+        .hero-logo img {
+            width: 360px;
+            max-width: 100%;
+        }
 
         .hero-contact {
             text-align: right;
@@ -223,7 +228,7 @@
             text-align: center;
             padding: 26px 20px 30px;
             border-radius: 20px;
-            background: linear-gradient(135deg, var(--azul-profundo), #4c5270);
+            background: linear-gradient(135deg, #2817ac, #4c5270);
             color: var(--branco);
             margin-bottom: 32px;
         }
@@ -272,35 +277,35 @@
             transform: translateY(-2px);
         }
 
-  @media (max-width: 720px) {
-    .hero {
-        padding: 24px 18px 30px;
-    }
+        @media (max-width: 720px) {
+            .hero {
+                padding: 24px 18px 30px;
+            }
 
-    .hero-logo img {
-        width: 260px; /* menor no celular para ficar mais proporcional */
-    }
+            .hero-logo img {
+                width: 260px;
+            }
 
-    .hero-title {
-        font-size: 28px;
-    }
-    .hero-subtitle {
-        font-size: 16px;
-    }
-    .section-title {
-        font-size: 24px;
-    }
-    .cta-final h2 {
-        font-size: 24px;
-    }
-    .hero-top {
-        flex-direction: column;
-        align-items: center;
-    }
-    .hero-contact {
-        text-align: center;
-    }
-}
+            .hero-title {
+                font-size: 28px;
+            }
+            .hero-subtitle {
+                font-size: 16px;
+            }
+            .section-title {
+                font-size: 24px;
+            }
+            .cta-final h2 {
+                font-size: 24px;
+            }
+            .hero-top {
+                flex-direction: column;
+                align-items: center;
+            }
+            .hero-contact {
+                text-align: center;
+            }
+        }
     </style>
 </head>
 <body>
